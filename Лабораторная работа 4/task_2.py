@@ -28,4 +28,8 @@ main_str = """
     В качестве разделителя для встроенного метода split будет выбран символ пробела. На выходе мы получим список отдельных слов. 
     Далее нужно отсортировать слова в алфавитном порядке, а после сортировки склеить их с помощью метода строк join. Приступим!!!!
 """
-print(get_count_char(main_str))
+count_char = get_count_char(main_str)
+percent_char = get_percent_char(count_char)
+
+print(count_char)
+print(percent_char)
