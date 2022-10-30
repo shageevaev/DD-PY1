@@ -4,7 +4,6 @@ def delete(list_, index=None):
     else:
         list_ = list_[0:index] + list_[index + 1::]
     return list_
-    ...  # TODO реализовать функцию удаления элемента из списка по индексу
 
 
 print(delete([0, 0, 1, 2], index=0))  # [0, 1]
